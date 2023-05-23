@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="URF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewoport" content="width=divice-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			table {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<label>살고있는 지역은?</label>
+		<select name="" id="">
+			<option value="02">서울</option>
+			<option value="051">부산</option>
+			<option value="064">제주</option>
+		</select>
+		<br />
+		<select name="" id="" multiple>
+			<option value="02">서울</option>
+			<option value="051">부산</option>
+			<option value="064">제주</option>
+		</select>
+		<br />
+		<select name="" id="">
+			<option value="male">남자</option>
+			<option value="female">여자</option>
+		</select>
+		<br />
+		<div>
+			<input type="radio" name="rdo_gender" id="male" />
+			<label for="male">남자</label>
+			<input type="radio" name="rdo_gender" id="female" />
+			<label for="female">여자</label>
+		</div>
+		<div>
+			<textarea name="" id="" style="width: 100%" rows="10"></textarea>
+		</div>
+		<div>
+			<fieldset>
+				<legend>개인정보</legend>
+				<div>
+					<label for="name"></label>
+					<input type="text" name="" id="name" />
+				</div>
+				<div>
+					<label for="tel">전화번호</label>
+					<input type="tel" name="" id="tel" />
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>학력정보</legend>
+				<div>
+					<label for="unibersity"></label>
+					<input type="text" name="" id="unibersity" />
+				</div>
+				<div>
+					<label for="year">졸업년도</label>
+					<input type="tel" name="" id="year" />
+				</div>
+			</fieldset>
+		</div>
+		<div>
+			<input list="browser" id="browser1" />
+			<datalist id="browser">
+				<option value="IE">IE</option>
+				<option value="FireFox">FireFox</option>
+				<option value="chorm">chorm</option>
+			</datalist>
+		</div>
+		<div>
+			<input list="browser" id="browser2" />
+		</div>
+	</body>
+</html>
