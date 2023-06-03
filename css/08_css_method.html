@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="URF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewoport" content="width=divice-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<style>
+			/* .table {
+				border: 1px solid black;
+				border-collapse: collapse;
+				width: 100%;
+			}
+			.table tr th,
+			.table tr td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+
+			.striped-table tbody tr:nth-child(2n + 1) {
+				background-color: greenyellow;
+			} */
+			.table {
+				border: 1px solid black;
+				/* border-collapse: collapse; */
+				width: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 1. inline style : HTMl 태그 에 style 속성을 통한 직접 지정 -->
+		<!-- 2, internal css : head에 style 태그에 스타일을 지정 -->
+		<!-- 3. external css : 별도의 css 파일을 만들고 import-->
+		<table class="table">
+			<thead>
+				<tr>
+					<td>이름</td>
+					<td>전화ㅣ번호</td>
+					<td>이메일</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>유재석</td>
+					<td>010-1234-5678</td>
+					<td>test1@dummy.co.kr</td>
+				</tr>
+				<tr>
+					<td>종국</td>
+					<td>010-2645-4935</td>
+					<td>test2@dummy.co.kr</td>
+				</tr>
+				<tr>
+					<td>지효</td>
+					<td>010-2641-5678</td>
+					<td>test3@dummy.co.kr</td>
+				</tr>
+			</tbody>
+		</table>
+		<br />
+		<table class="table striped-table">
+			<thead>
+				<tr>
+					<td>이름</td>
+					<td>전화ㅣ번호</td>
+					<td>이메일</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>유재석</td>
+					<td>010-1234-5678</td>
+					<td>test1@dummy.co.kr</td>
+				</tr>
+				<tr>
+					<td>종국</td>
+					<td>010-2645-4935</td>
+					<td>test2@dummy.co.kr</td>
+				</tr>
+				<tr>
+					<td>지효</td>
+					<td>010-2641-5678</td>
+					<td>test3@dummy.co.kr</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
