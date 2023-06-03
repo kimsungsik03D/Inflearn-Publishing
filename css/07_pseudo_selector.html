@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="URF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewoport" content="width=divice-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			/* 가상클랙스 */
+			a {
+				text-decoration: none;
+				color: black;
+			}
+			a:hover {
+				text-decoration: underline;
+				color: wheat;
+				background-color: blue;
+			}
+
+			a:link {
+				color: blue;
+			}
+
+			a:visited {
+				color: green;
+			}
+
+			button:hover {
+				color: white;
+				background-color: red;
+			}
+			input:hover {
+				border: 5px solid red;
+			}
+
+			table {
+				width: 100%;
+			}
+			table,
+			th,
+			td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			tbody > tr:nth-child(2n + 1) {
+				background-color: greenyellow;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="https://naver.com">네비어</a>
+		<a href="https://google.com">구글</a>
+		<br />
+		<button>조회</button>
+		<br />
+		<input type="text" />
+
+		<table>
+			<thead>
+				<tr>
+					<th>이름</th>
+					<th>연락처</th>
+					<th>이메일</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>유제거</td>
+					<td>010-1234-5667</td>
+					<td>tes@test.com</td>
+				</tr>
+				<tr>
+					<td>김종국</td>
+					<td>010-1234-5667</td>
+					<td>tes@test.com</td>
+				</tr>
+				<tr>
+					<td>송지효</td>
+					<td>010-1234-5667</td>
+					<td>tes@test.com</td>
+				</tr>
+				<tr>
+					<td>개리</td>
+					<td>010-1234-5667</td>
+					<td>tes@test.com</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
