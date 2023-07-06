@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="URF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewoport" content="width=divice-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.container {
+				display: flex;
+				border: 1px solid black;
+			}
+			.container-A {
+				display: flex;
+				flex-direction: column;
+				border: 1px dotted orange;
+				width: 20%;
+				padding: 5pxpx 5px 10px;
+			}
+			.container-B {
+				display: flex;
+				flex-direction: column;
+				border: 1px dotted purple;
+				width: 80%;
+				padding: 5px 2px 5px 2px;
+			}
+			.container-B1 {
+				display: flex;
+				border: 1px dotted pink;
+				height: 100%;
+			}
+			.container-B2 {
+				display: flex;
+				border: 1px dotted gren;
+				height: 100%;
+			}
+			.container-C {
+				display: flex;
+				/* flex-direction: row; */
+				flex-direction: row-reverse;
+				/* flex-direction: column; */
+				/* flex-direction: column-reverse; */
+				border: 3px dotted black;
+			}
+			.item {
+				background-color: greenyellow;
+				border: 2px solid blue;
+				/* width: 150px; */
+				width: 100%;
+				text-align: center;
+			}
+
+			.item {
+				background-color: greenyellow;
+				border: 2px solid blue;
+				/* width: 150px; */
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container-A">
+				<div class="item">A</div>
+				<div class="item">B</div>
+				<div class="item">C</div>
+			</div>
+			<div class="container-B">
+				<div class="container-B1">
+					<div class="item">A</div>
+					<div class="item">B</div>
+					<div class="item">C</div>
+				</div>
+				<div class="container-B2">
+					<div class="item">A</div>
+					<div class="item">B</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
